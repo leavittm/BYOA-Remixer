@@ -1,26 +1,59 @@
-A content remixing tool using React
+# Content Remixer
+
+A web application that helps you transform and remix text content into different styles using AI. Built with React, TypeScript, Vite, and Tailwind CSS.
 
 ## Features
 
-1. Paste in your text
-2. Button to auto-generate a remix
-3. Send the request to an AI API
-4. See the remixes in an output box
+- Transform text into different styles (Poetic, Professional, Casual, Storytelling)
+- Modern, responsive UI
+- Copy results to clipboard
+- Real-time preview
 
-## Technologies
+## Getting Started
 
-- React
-- Tailwind CSS
-- Vercel
-- OpenAI API
-- Anthropic API
+### Prerequisites
 
-## Challenges
- 
- 1. Add other AI APIs
- 2. Add a UI for the user to select the API
- 3. Upload Audio files for transcription
- 4. Send the remixes to twitter
- 5. Save the outputs to a database
+- Node.js (v14 or higher)
+- npm (v6 or higher)
 
- 
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/content-remixer.git
+cd content-remixer
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm run dev
+```
+
+4. Open [http://localhost:5173](http://localhost:5173) in your browser
+
+## Project Structure
+
+```
+src/
+  ├── components/        # React components
+  ├── constants/        # Application constants
+  ├── types/           # TypeScript type definitions
+  ├── App.tsx          # Main application component
+  └── main.tsx         # Application entry point
+```
+
+## Built With
+
+- [React](https://reactjs.org/) - UI Framework
+- [TypeScript](https://www.typescriptlang.org/) - Programming Language
+- [Vite](https://vitejs.dev/) - Build Tool
+- [Tailwind CSS](https://tailwindcss.com/) - CSS Framework
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
